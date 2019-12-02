@@ -39,3 +39,12 @@ set hlsearch
 
 " make backspace work like most other programs
 set backspace=2
+
+" encoding
+set encoding=utf-8
+set fileencodings=utf-8,chinese,latin-1,gbk,gb18030,gk2312
+set fileencoding=utf-8
+
+" hide menu bar, tool bar
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
